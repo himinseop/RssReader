@@ -1,0 +1,76 @@
+rss_feeds:
+  -
+    channel_name: '넷마블'
+    url: 'https://netmarble.engineering/feed/'
+  -
+    channel_name: '우아한형제들'
+    url: 'https://techblog.woowahan.com/feed/'
+  -
+    channel_name: '원티드랩'
+    url: 'https://medium.com/feed/wantedjobs'
+  -
+    channel_name: '컬리'
+    url: 'https://helloworld.kurly.com/feed'
+  -
+    channel_name: '토스'
+    url: 'https://toss.tech/rss.xml'
+  -
+    channel_name: 'AWS Korea'
+    url: 'https://aws.amazon.com/ko/blogs/korea/feed/'
+  -
+    channel_name: 'NAVER D2'
+    url: 'http://d2.naver.com/d2.atom'
+  -
+    channel_name: 'DevGround'
+    url: 'https://devground.hanbit.co.kr/feed/'
+  -
+    channel_name: 'Google Korea'
+    url: 'http://developers-kr.googleblog.com/'
+  -
+    channel_name: '라인'
+    url: 'https://engineering.linecorp.com/ko/feed/'
+  -
+    channel_name: '쏘카'
+    url: 'https://tech.socarcorp.kr/feed.xml'
+  -
+    channel_name: '카카오'
+    url: 'https://tech.kakao.com/feed/'
+  -
+    channel_name: '요기요'
+    url: 'https://medium.com/feed/deliverytechkorea'
+  -
+    channel_name: '당근'
+    url: 'https://medium.com/feed/daangn'
+  -
+    channel_name: '카카오엔터프라이즈'
+    url: 'https://tech.kakaoenterprise.com/feed/'
+  -
+    channel_name: '뱅크샐러드'
+    url: 'https://blog.banksalad.com/rss.xml'
+  -
+    channel_name: '하이퍼커넥트'
+    url: 'https://hyperconnect.github.io/feed.xml'
+  -
+    channel_name: '무신사'
+    url: 'https://medium.com/feed/musinsa-tech'
+  -
+    channel_name: 'NAVER CLOUD PLATFORM'
+    url: 'https://medium.com/feed/naver-cloud-platform'
+  -
+    channel_name: 'NHN CLOUD'
+    url: 'https://meetup.toast.com/rss'
+  -
+    channel_name: '쿠팡 엔지니어링'
+    url: 'https://medium.com/feed/coupang-engineering'
+  -
+    channel_name: '네이버 플레이스'
+    url: 'https://medium.com/feed/naver-place-dev'
+  -
+    channel_name: '직방'
+    url: 'https://medium.com/feed/zigbang'
+  -
+    channel_name: '29cm'
+    url: 'https://medium.com/feed/29cm'
+#  -
+#    channel_name: 'velog'
+#    url: 'https://v2.velog.io/rss/'

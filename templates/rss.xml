@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>O2OLAB RSS Reader</title>
+        <link>http://127.0.0.1:5000/</link>
+        <description>My custom RSS feed</description>
+        {% for entry in entries %}
+            <item>
+                <title>{{ entry.channel_name }} - {{ entry.title }}</title>
+                <link>{{ entry.link }}</link>
+                <description>{{ entry.summary }}</description>
+            </item>
+        {% endfor %}
+    </channel>
+</rss>
