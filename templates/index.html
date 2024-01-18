@@ -5,14 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RSS Reader</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
 </head>
 <body>
-    <h1>RSS Reader</h1>
+    <h1 style="display:block">RSS Reader</h1>
     {% for entry in entries %}
-        <h2><a href="{{ entry.link }}" target="_blank">{{ entry.title }}</a></h2>
-        <pre>{{ entry.summary }}</pre>
-        <copy>{{ entry.channel_name }}</copy>
-        <hr />
+    <div class="card">
+        <div class="thumbnail-wrap">
+            <img class="thumbnail" src="{{ entry.image_url }}" alt="{{ entry.title }}">
+        </div>
+        <div class="content">
+            <div class="title"><a href="{{ entry.link }}" target="_blank">{{ entry.title }}</a></div>
+            <div class="meta">
+                <span class="author">{{ entry.author }}</span>
+                <span class="published">{{ entry.published }}</span>
+            </div>
+            <p class="summary">
+                {{ entry.summary }}
+            </p>
+            <p class="channel">{{ entry.channel_name }}</p>
+        </div>
+    </div>
     {% endfor %}
 </body>
 </html>

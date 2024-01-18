@@ -1,0 +1,40 @@
+.card {
+    display: flex;
+}
+.content {
+    padding: 10px;
+}
+.thumbnail-wrap {
+    margin: 10px 10px;
+    display: inline-flex;
+}
+.thumbnail {
+    width: 240px;
+    height: 140px;
+}
+.title {
+    font-weight: bold;
+    font-size: 16pt;
+}
+.title a {
+    color: #666;
+    text-decoration: none;
+}
+.author {
+    padding-right: 5px;
+    margin-right: 5px;
+    font-size: 8pt;
+    color: #CCC;
+    border-right: 2px solid #EEE;
+}
+.published {
+    font-size: 8pt;
+    color: #CCC;
+}
+.summary {
+    color: #AAA;
+}
+.channel {
+    font-size: 9pt;
+    color: #CCC;
+}
